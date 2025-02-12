@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Sign Up</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo">facebook</h1>
+        <div class="signup-box">
+            <h2>Create a new account</h2>
+            <p>It's quick and easy.</p>
+            <form id="signupForm">
+                <div class="input-group">
+                    <input type="text" id="firstName" placeholder="First name">
+                    <input type="text" id="surname" placeholder="Surname">
+                </div>
+                <input type="date" id="dob" class="full-width">
+                <div class="input-group">
+                    <label>Gender:</label>
+                    <input type="radio" name="gender" value="Female"> Female
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Custom"> Custom
+                </div>
+                <input type="email" id="email" placeholder="Mobile number or email">
+                <input type="password" id="password" placeholder="New password">
+                <p> People who use our Service May have uploaded your contact information to facebook. 
+                    <a href="#">Learn more. </a>
+                </p>
+                <p> By clicking signup you agree to out <a href="#">Terms. Privacy Policy </a> and <a href="#">Cookie Policy. </a> 
+                    You may receive SMS notifications from us and can opt out at any time.
+                    
+                </p>
+                <button type="submit" class="signup-btn">Sign Up</button>
+            </form>
+            <p class="login-link">Already have an account? <a href="#">Log in</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
